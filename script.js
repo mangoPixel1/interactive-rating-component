@@ -1,6 +1,6 @@
 const container = document.querySelector('.container');
 let selectedRating;
-
+// this is a comment
 const options = document.querySelectorAll('.option');
 options.forEach((option) => { // Add event listener for each option
   option.addEventListener('click', (e) => {
