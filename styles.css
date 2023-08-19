@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: hsl(0, 0%, 100%);
+  background-color: #131519;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  width: 340px;
+  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 12%));
+  border-radius: 20px;
+  padding: 30px;
+}
+
+#star {
+  color: hsl(25, 97%, 53%);
+  font-weight: 600;
+  background-color: #253139;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #F5F5F5;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 25px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.option {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: hsl(217, 12%, 63%);
+  background-color: #253139;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+}
+
+.option:active {
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.selected {
+  color: white;
+  background-color: hsl(217, 12%, 63%);
+}
+
+#submit {
+  background-color: hsl(25, 97%, 53%);
+  color: #FEF3E9;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  padding: 10px 0;
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 2px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#submit:active {
+  color: hsl(25, 97%, 53%);
+  background-color: #FEF3E9;
+}
+
+.thank-you-img {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.selected-message {
+  display: inline-block;
+  color: #f78e43;
+  background-color: #272F36;
+  padding: 6px 20px 5px 20px;
+  border-radius: 20px;
+  margin: 0 0 20px 0;
+}
+
+.feedbackPTag {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
